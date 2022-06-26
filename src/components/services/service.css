@@ -17,6 +17,7 @@ ul.features-list li {
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
+  list-style-type: none;
 }
 
 ul.features-list li:before {
@@ -25,7 +26,7 @@ ul.features-list li:before {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url('../../../assets/bullet.svg');
+  background-image: url('../../assets/bullet.svg');
   background-size: contain;
   margin-right: 0.5em;
 }
@@ -55,5 +56,28 @@ ul.features-list li:before {
     right: 0;
     width: 350px;
     bottom: -2em;
+    height: 550px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .features-section:before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 20em;
+    background: #007af3;
+    left: 0;
+    top: -4em;
+  }
+  .features-section:after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 20em;
+    background: url('../../assets/dots.svg') no-repeat;
+    left: 4.5em;
+    top: 2em;
   }
 }

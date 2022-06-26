@@ -1,5 +1,6 @@
 import React from 'react'
 import './service.css'
+import sectionImage from '../../assets/welder.png'
 
 const Services = () => {
   return (
@@ -12,11 +13,11 @@ const Services = () => {
           <li>Quality is Our Prior Aim</li>
           <li>Planning, Designing and Constructing</li>
           <li>
-            Residential, Institutional, Commercial and Industrial Projects
+            Providing Skilled, Unskilled, Experienced & Non-Experienced Workers.
           </li>
         </ul>
 
-        <img src='images/construction.jpg' alt='Man holding phone' />
+        <img src={sectionImage} alt='Welder' />
       </div>
     </section>
   )

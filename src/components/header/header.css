@@ -40,6 +40,7 @@ p {
 .hero-img {
   width: 70%;
   margin-top: 3em;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 1080px) {
